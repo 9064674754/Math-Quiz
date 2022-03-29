@@ -21,9 +21,7 @@ body
 	margin-left: 3px;
 	color: tomato;
 	font-weight: bold;
-	
 }
-
 #word
 {
 	width: 60%;
@@ -34,24 +32,23 @@ body
 }
 #output
 {
-background: white;
-border-radius: 10px;
-border-top: 10px solid #AA4465;
-padding: 10px;
-float: none;
-text-align: left;
-opacity: 0%;
+	background: white;
+	border-radius: 10px;
+	border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+	text-align: left;
+	opacity: 0%;
 }
 h1{
-	color: rgb(174, 0, 255);
+	color: orange;
 	font-family: 'Akaya Kanadaka', cursive;
-	font-weight: bold;
 }
 h3{
 	font-family: 'Lora', serif;
 	color: teal;
 }
-label{
+#username{
 	font-family: 'Yellowtail', cursive;
 	color: turquoise;
 }
@@ -59,5 +56,39 @@ button{
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 input:hover{
-	background-color: rgb(166, 255, 173);
+	background-color: yellow;
+}
+.login_div2:hover{
+	border: 5px solid rgb(102, 6, 73);
+	width: 35%;
+}
+.login_div1:hover{
+	border: 5px solid rgb(102, 6, 73);
+	width: 35%;
+}
+#number_1,#number_2
+{
+	color: tomato;
+	font-weight: bold;
+}
+h4{
+	color: bisque;
+	font-family: 'Akaya Kanadaka', cursive;
+	width: 100px;
+}
+h4:hover{
+	text-decoration: underline;
+}
+#player_question{
+	color: rgb(255, 115, 0);
+	font-family: cursive;
+}
+#player_answer{
+	color: rgb(255, 115, 0);
+	font-family: cursive;
+}
+#player1_score,#player2_score{
+	color: deeppink;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
 }
